@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+.CCR_Roadmap{
+    flex-direction: row;
+    height: 100%;
+    height: 100vh;
+}
+ .real-roadmap { 
+    display: grid; 
+   grid-template-columns: auto auto  ;
+ 
+
+}
+
+.left-side-roadmaps  ,.right-side-roadmaps {
+    width: 50vw;
+    background-color: #ffffff;
+    color: black;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+ 
+.right-side-roadmaps{
+    background-color: #000000;
+    color: white;
+ 
+}
+
+ .skills{
+    width: 70%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:flex-end;
+    /* background-color: #ffff0027; */
+    /* padding: 40px; */
+    
+  
+ }  
+ .box_name_r{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+    font-family: 'Sono', sans-serif;
+   
+ }
+ 
+ .box_name_l{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: black;
+    font-family: 'Sono', sans-serif;
+ 
+
+ }
+
+.skills-master{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 10px;
+}
+
+  .real_life{
+    position: absolute;
+    left:50%; top:15%; 
+    transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3rem;
+  }
+
+  .real_life span {
+color : white
+  }
+ 

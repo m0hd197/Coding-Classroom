@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+
+.right_content{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: 'Tilt Prism', cursive;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+} 
+/* style={{ height: "200vh" } */
+
+.content-heading_big{
+    font-size: 3rem; 
+}
+.content-heading_normal{
+    font-size: 1.5rem;
+    margin: 12px 0;
+}
+ 
+
+.real_content{
+ display: flex;
+ flex-direction: column;
+justify-content: flex-start;
+}
+.introduction{
+    background-color: #D9EEE1;
+    padding: 20px;
+    width: 70vw;
+ 
+}
+
+.Btn-on-img{
+display: flex;
+}
+
+.img-course-banner{
+    width: 70vw;
+}
+
+.btn-try-code{
+position: absolute;
+right: 7.5vw;
+top: 31vw;
+width: 150px;
+height: 30px;
+/* border-radius: 20%; */
+border: 2px solid rgba(30, 30, 236, 0.866);
+outline: none;
+font-size: .8rem;
+padding: 2px;
+text-transform: capitalize;
+font-weight: 600;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.offer_for_newbie{
+    background-color: #eeee53be;
+    width: 70vw;
+    padding: 25px;
+   
+}
+
+.offer-benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer_title{
+margin: 0 0 7px 0;
+}
+
+.offer_title_para{
+    font-size: 2rem;
+}
+
+.offer_benefits{
+    margin: 0 0 7px 0;
+}
+
+.offer_benefits_para{
+    font-size: 1rem;
+}
+ 
+.offer_apply{
+    margin: 7px 0 7px 0;
+}
+
+.offer_apply_btn{
+    height: 45px;
+    width: 180px;
+    border: 2px solid #c4c42e;
+    outline: none;
+    background-color: black;
+    color: #c4c42e;
+
+}
+
+.continue_course_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BTN{
+    margin: 20px 0;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.previous_page:hover{
+    background-color: #e75858;
+    color: #ffffff;
+}
+
+.next_page:hover{
+    background-color: #74ea57;
+    color: #ffffff;
+}
+
+.paragraph{
+    font-size: .8rem;
+    color: #555505;
+    margin: 10px 0;
+}
+
+.heading_6{
+    font-size: 1rem;
+    color: #047f04;
+    margin: 8px 0;
+}
+
+.button-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:flex-end
+
+
+}
+
+.button-content .btn{
+width: 200px;
+height: 30px;
+font-size: .8rem;
+font-family: 'Tilt Prism', cursive;
+border: 2px solid green;
+color: rgb(16, 148, 14);
+outline: none;
+
+}

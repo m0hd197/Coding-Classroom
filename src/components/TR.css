@@ -1,0 +1,102 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+.CCR_Roadmap ,.CCR_Tool  {
+    flex-direction: row;
+    height: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: auto auto  ;
+ 
+  
+    
+ 
+ 
+ }
+
+
+.fixe{
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 230px  230px   ;
+    grid-template-rows: 230px 230px   ;
+    gap: 1rem;
+}
+ 
+
+ .left-side-tools     {
+    width: 50vw;
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+     
+    
+     }
+
+
+ .right-side-tools {
+    width: 50vw;
+    background-color: #000000;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* flex-direction: column; */
+ }
+
+
+
+
+ .first-tools-niche ,  .second-tools-niche ,  .third-tools-niche,  .fourth-tools-niche,  .five-tools-niche,  .six-tools-niche{
+    
+background-color: black;
+    padding: 20px;
+    font-size:10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+ align-items: flex-start;
+
+ 
+ }
+
+ .CCR_Footer{
+    position: fixed;
+    color: red;
+ }
+
+
+ .tool_name_text{
+background-color: red;
+width: 200px;
+padding: 3px;
+font-size: 1.2rem;
+margin: 0 0 10px 0;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+ }
+ 
+ .api_name_text{
+
+    /* background-color: yellow; */
+    width: 200px;
+    text-align: left;
+    padding: 1px;
+    font-size: .8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    
+   
+ }
+
+
+ 
+ .right-side-tools  .first-tools-niche ,  .right-side-tools  .second-tools-niche , .right-side-tools   .third-tools-niche, .right-side-tools   .fourth-tools-niche,  .right-side-tools  .five-tools-niche,  .right-side-tools  .six-tools-niche{
+    background-color: white;
+    color: black;
+ }

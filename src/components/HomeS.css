@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .CCR_Home , .CCR_About, .CCR_Contact{
+    flex-direction: row;
+    height: 100%;
+ 
+ }
+ 
+ .main-page-logo , .about-page-logo, .contact-page-logo{
+width: 50vw;
+background-color: #ffffff;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+ 
+
+ }
+ 
+ 
+
+ .channel-name-motto{
+    width: 50vw;
+    background-color: #000000;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .CCR_Header{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    width: 650px;
+    border-radius: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 1;
+    position:absolute; 
+    left:50%; top:5%; 
+    transform: translate(-50%, -50%)
+
+}
+.CCR_Footer{
+    position:absolute; 
+    left:50%; bottom:-1%; 
+    transform: translate(-50%, -50%);
+ 
+}
+
+.CCR_Footer h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.CCR_Header .header_link{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.CCR_Header .header_link:hover{
+    
+    border-bottom: 2px solid black;
+ 
+    
+}
+
+.Home_Logo {
+    width: 705px;
+    height: 537px;
+}
+
+.Home_heading {
+    font-family: 'Tilt Neon', cursive;
+    font-size: 92px;
+line-height: 85px;
+text-align: center;
+}
+
+.Home_para {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.channel-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;  
+    align-items: center;
+    padding: 40px;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+
+
+.about_heading{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+}
+
+/* .channel-about .Home_para{
+     
+} */
+
+.social_links{
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 20px;
+   
+}
+ 
+
+.contact_icon{
+width: 50px;
+height: 50px;
+/* color: white; */
+background-color: white;
+border-radius: 50%;
+border: 2px solid white;
+}
